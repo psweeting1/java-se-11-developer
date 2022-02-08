@@ -6,18 +6,18 @@ to the developer that wrote them.
 
 # Chapter one
 
-###Creating a package
+### Creating a package
 Create a class in a package. You can right click on the src directory and create a package via creating a class.
 e.g. name your new class you're creating garden.vegetable.VineVegetable. The last part ***VineVegetable***
 will be you're created class inside your package layout.
 
-###Execute FQCN
+### Execute FQCN
 Terminal Command: `java -cp out/production/packages-imports garden.vegetable.VineVegetable` (Out directory used was 
 created by intelli).
 
 This executes the FQCN (Fully Qualified Class Name).
 
-###Java compile directory
+### Java compile directory
 `javac -d build src/garden/vegetable/VineVegetable.java`
 
 `javac -d build` allows you to specify where you would like the `build` directory to go and what you would like to 
