@@ -36,3 +36,24 @@ Java will compile the FQCN next to the defined java file.
 | **A single-static-import declaration** | `import static java.lang.Math.PI;` | Pulls in static member of a class, does not reference the declared type. |
 | **A static-import-on-demand declaration** | `import static java.lang.Math.*;` | Pulls in ALL static members of a class reference, does not reference declared type. |
 
+
+### Out of the Ordinary Concepts
+
+- Multiple package statements. 
+- A Package statement that is not the first line of code.
+- Import statement not in the correct order, must be after a package statement if one exist and before any other code.
+- Import `static` statement used in place of an import statement.
+- Import statement using a higher level package with a wild card `*`, a wild card does not include classes in other
+packages. Example import `a.*` does not also mean import, `a.b.*`
+- A misplaced wildcard, for example the `*` at the end of a class name or a partial class name.
+
+### Why Java?
+
+- Java is derived from C, C++ but simplified.
+- Java is Architecture neutral (Software that is designed without regard to the target platform).
+- Java is Object Oriented.
+- Java is Statically typed.
+- Java is a Dynamic programming language. (Java supports dynamic binding, supports polymorphism)
+- Java supports Multi-threaded processing. (Path followed when executing a program)
+- Distributed Computing is supported by Java. (Basically means it works on many different types of machines and OS's)
+- Memory management is handled by the Java environment, and not the developer. 
